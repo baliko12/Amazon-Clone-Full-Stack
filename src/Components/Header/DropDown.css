@@ -1,0 +1,22 @@
+.dropD {
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-right: -135px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  background-color: rgb(246, 243, 243);
+  height: 35px;
+  /* border-color: #cd9042; */
+}
+.dropD:hover {
+  background-color: rgb(205, 197, 197);
+  cursor: pointer;
+  border: 2px solid #cd9042;
+  overflow-y: scroll;
+}
+
+.dropD {
+  z-index: auto;
+  display: block;
+}
